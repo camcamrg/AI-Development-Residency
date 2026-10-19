@@ -25,3 +25,10 @@ description: Use when I say "write tests for this," "add tests for," "run tests 
 - Never couple tests together.
 - Never skip the non-happy path.
 - Never patch a bug without a test companion.
+
+## Done when
+- Tests cover the happy path, edge cases, and error cases.
+- Any bug being fixed has a regression test that failed before the fix.
+- All tests have been run and the pass/fail results reported.
+- Tests are independent and clearly named.
+- Coverage gaps are called out.
