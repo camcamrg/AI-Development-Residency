@@ -1,0 +1,6 @@
+# Mac system files
+.DS_Store
+# log files
+*.log
+# Secret environment files
+.env
